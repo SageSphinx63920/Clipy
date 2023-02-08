@@ -67,7 +67,7 @@ public class Clipy {
         builder.addEventListeners(new RegisterCommand());
         builder.addEventListeners(new PingCommand());
         builder.addEventListeners(new StartSlashCommand());
-        //builder.addEventListeners(new GetCommand());
+        builder.addEventListeners(new GetCommand());
         builder.addEventListeners(new UnregisterCommand());
         builder.addEventListeners(new StopCommand());
 
